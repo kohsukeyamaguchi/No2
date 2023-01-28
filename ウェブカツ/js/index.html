@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>ホームページのタイトル</title>
+  </head>
+  <body>
+    <h1>ホームページの見出し</h1>
+    <p>最初のホームページが完成しました！</p>
+    <script>
+      var intervalId = setInterval(function(){
+        document.write('愛してるよ。');
+      },100);
+
+      setTimeout(function(){
+        clearInterval(intervalId);
+        document.write('<br>');
+        document.write('彼女：ひぃやぁぁぁーーーーーー！！<br>');
+        document.write('自分：たわばっ！');
+      },10000);
+    </script>
+  </body>
+</html>

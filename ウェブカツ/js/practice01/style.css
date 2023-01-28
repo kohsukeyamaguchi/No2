@@ -1,0 +1,9 @@
+.img-wrap {
+    width: 800px;
+    position: relative;
+}
+
+.img-wrap img {
+    width:100%;
+    position: absolute;    
+}
